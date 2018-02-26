@@ -1,2 +1,18 @@
-.cabecera{width: 100%; height: 150px; border-bottom: solid 5px #ed5d1b;}
-.cuerpo{}
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700');
+/* font-family: 'Kalam', cursive; */
+
+/*cabecera*/
+.cabecera{width: 100%; height: 115px; border-bottom: solid 5px #ed5d1b;}
+.contenidocabecera{width: 1024px; height:115px; float: left; position: relative;
+left: 50%; margin-left: -512px;}
+
+
+/*cuerpo*/
+.fondo{width:100%; float: left; position: relative;
+background-image: url(imagenes/comunes/fondo.jpg);
+background-repeat: repeat; background-position: center; background-size: contain;}
+.contenido{}
+
+/*pie*/
+.pie{width: 100%; height: 115px; border-top: solid 15px #162975;}
+.contenidopie{}
