@@ -64,7 +64,23 @@ h1{float: left; position: relative; font-family: 'Kalam', cursive; color:#ed5d1b
 .europeo{float: left; position: relative; width: 108px; margin-left: 36px;
     margin-top: 11px;}
 
-
+/*entrada ampliada*/
+.fondoentrada{width:100%; float: left; position: relative;
+    background-image: url(imagenes/comunes/fondoentrada.jpg);
+    background-repeat: repeat;}
+.contenidoentrada{width: 1024px; float: left; position: relative; left:50%;
+    margin-left:-512px; padding: 30px; background-color: #fff;
+    margin-bottom: 65px; margin-top: 65px;}
+.volver{float: left; position: relative; width: 99px;
+    background-color: #ed5d1b;  font-family: 'Kalam', cursive;
+    font-size: 2rem;font-weight: 700; color: #fff;
+    -webkit-box-shadow: 1px 1px 10px 8px #b2b52b; text-decoration: none;
+    box-shadow: 1px 1px 10px 8px #b2b52b; border: none; padding-left: 18px;
+    border-radius: 0% 50% 50% 50%; margin-left: -55px; margin-top: -44px;
+    text-shadow: 3px 3px 5px #b2b52b; padding-top: 8px; cursor: pointer;}
+.volver:hover{background-color: #b2b52b; text-shadow: 3px 3px 5px #ed5d1b;
+    -webkit-box-shadow: 1px 1px 10px 8px #ed5d1b;
+    box-shadow: 1px 1px 10px 8px #ed5d1b;}
 
 
 
